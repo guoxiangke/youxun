@@ -1,4 +1,4 @@
-#page, .region-bottom {
+#page {
    max-width: 960px;
 }
 
@@ -14,8 +14,8 @@
 #logo {
     border-bottom: 2px solid #555555;
     float: left;
-    height: 98px;
-    width: 157px;
+/*    height: 98px;
+    width: 157px;*/
 }
 
 .header__logo {
@@ -42,10 +42,10 @@
 }
 
 #navigation {
-    float: left;
+    float: right;
     height: 100px;
-    padding-left: 0;
-    padding-right: 0;
+  /*  padding-left: 0;
+    padding-right: 0;*/
     position: relative;
     width: 800px;
 }
@@ -104,4 +104,29 @@ dale added!
 }
 #secondary-menu-warper{
     height: 2em;
+}
+
+.front #content {
+    padding: 0;
+}
+.front #logo {
+    border: none;
+}
+
+.region-bottom {
+    background-color: #c0c0c0;
+    color: #FFF;
+    font-size: 12px;
+    height: 120px;
+}
+#block-block-2 {
+  text-align: right;
+  border-top: #838280 15px solid;
+}
+
+#yx-copyrignt {
+  margin: auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-top: 40px;
 }
