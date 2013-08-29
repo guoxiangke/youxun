@@ -1,0 +1,107 @@
+#page, .region-bottom {
+   max-width: 960px;
+}
+
+#header {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 0;
+    width: 960px;
+}
+
+#logo {
+    border-bottom: 2px solid #555555;
+    float: left;
+    height: 98px;
+    width: 157px;
+}
+
+.header__logo {
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+#secondary-menu {
+    float: left;
+/*	height: 50px;*/
+	width: 100%;
+    padding: 11px;
+}
+
+#secondary-menu ul {
+	text-align: right;
+/*	float: right;
+	font-size: 12px;*/
+}
+
+#secondary-menu li {
+    float: left;
+    /*width: 60px;*/
+}
+
+#navigation {
+    float: left;
+    height: 100px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    width: 800px;
+}
+
+#main-menu {
+    background: none repeat scroll 0 0 #555555;
+    float: left;
+    height: 33px;
+    margin-top: 20px;
+    position: absolute;
+    top: 50px;
+}
+
+#main-menu .links li {
+    border-right: 2px solid #BFBFBF;
+    float: left;
+    font-size: 14px;
+    margin-top: 4px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 112px;
+} 
+
+#navigation .links li.last{
+	border-right: none;
+	padding-left: 6px;
+}
+
+#main-menu a {
+	color: #FFFFFF;
+}
+
+#main-menu ul li.last {
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+    color: #666;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+dale added!
+*/
+#main {
+    padding-top: 1em;
+}
+#secondary-menu-warper{
+    height: 2em;
+}
