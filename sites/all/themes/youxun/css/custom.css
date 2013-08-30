@@ -9,17 +9,18 @@
     overflow: hidden;
     padding: 0;
     width: 960px;
+    border-bottom: 2px solid #555555;
 }
 
 #logo {
-    border-bottom: 2px solid #555555;
+/*    border-bottom: 2px solid #555555;*/
     float: left;
 /*    height: 98px;
     width: 157px;*/
 }
 
 .header__logo {
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     padding-top: 40px;
 }
 
@@ -27,7 +28,8 @@
     float: left;
 /*	height: 50px;*/
 	width: 100%;
-    padding: 11px;
+    padding: 28px;
+    font-size: 18px;
 }
 
 #secondary-menu ul {
@@ -36,10 +38,6 @@
 	font-size: 12px;*/
 }
 
-#secondary-menu li {
-    float: left;
-    /*width: 60px;*/
-}
 
 #navigation {
     float: right;
@@ -61,7 +59,7 @@
 
 #main-menu .links li {
     border-right: 2px solid #BFBFBF;
-    float: left;
+    /*float: left;*/
     font-size: 14px;
     margin-top: 4px;
     overflow: hidden;
@@ -89,7 +87,7 @@ a {
 }
 
 a:visited {
-    color: #999;
+    color: #777;
 }
 
 a:hover {
@@ -103,7 +101,7 @@ dale added!
     padding-top: 1em;
 }
 #secondary-menu-warper{
-    height: 2em;
+    height: 4em;
 }
 
 .front #content {
@@ -129,4 +127,19 @@ dale added!
   max-width: 960px;
   padding-right: 10px;
   padding-top: 40px;
+}
+
+#secondary-menu li.active{
+  font-weight: bolder;
+/*  background-color: #555;
+  color: #FFF;*/
+}
+
+#secondary-menu li{
+  border-right: 2px solid #BFBFBF;
+  padding: 0 0.5em;
+}
+
+#secondary-menu li.last {
+border-right: none;
 }
